@@ -3,6 +3,8 @@ description: Create a bug report to help us improve.
 title: "🐛 [BUG] - <title>"
 labels: 
   - "bug"
+assignees:
+  - "ShreyasAyyengar"
 body: 
   - type: textarea
     id: summary
