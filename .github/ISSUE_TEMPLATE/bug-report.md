@@ -7,21 +7,30 @@ assignees: ShreyasAyyengar
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Summary of Bug
+<!--- Give us a summary of the current bug -->
 
-**To Reproduce**
-Steps to reproduce the behaviour:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Expected Behavior
+<!--- Tell us what should happen -->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Current Behavior
+<!--- Tell us what happens instead of the expected behavior -->
+
+## Possible Solution
+<!--- Not obligatory, but suggest a fix/reason for the bug, -->
+
+## Steps to Reproduce
+1. 
+2.
+3.
+4.
 
 **Screenshots**
-If applicable, could you add screenshots to help explain your problem?
+<!--- Please feel free to add screenshots related to this issue. -->
 
-**Additional context**
-Please feel free to add any other context about the problem here.
+
+## Context (Environment)
+<!--- Please feel free to add any other context about the problem here. -->
+
+## Possible Implementation
+<!--- Not obligatory, but suggest an idea for implementing a solution -->
