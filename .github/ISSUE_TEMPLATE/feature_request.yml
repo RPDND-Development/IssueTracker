@@ -5,10 +5,6 @@ title: "[FEATURE] - "
 labels: enhancement
 assignees: ShreyasAyyengar
 
----
-
-##### If your feature is related to a bug, please consider opening a [bug report instead](https://github.com/RPDND-Development/IssueTracker/issues/new?assignees=ShreyasAyyengar&labels=bug&template=bug-report.md&title=%5BBUG%5D)
-
 body:
 - type: textarea
   id: problem-description
