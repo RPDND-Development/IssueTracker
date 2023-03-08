@@ -1,3 +1,4 @@
+---
 name: Feature request
 description: Suggest an idea
 title: "[FEATURE] - "
@@ -13,8 +14,8 @@ body:
   id: problem-description
   attributes:
     label: "Is your feature request related to a problem?"
-    description: A clear and concise description of what the problem is. Ex. I'm always frustrated when...
-    placeholder: Please describe the problem you're facing
+    description: "A clear and concise description of what the problem is. Ex. I'm always frustrated when..."
+    placeholder: "Please describe the problem you're facing"
   validations:
     required: true
 
@@ -22,8 +23,8 @@ body:
   id: solution-description
   attributes:
     label: "Describe the solution you'd like"
-    description: A clear and concise description of what you want to happen.
-    placeholder: Please describe your proposed solution
+    description: "A clear and concise description of what you want to happen."
+    placeholder: "Please describe your proposed solution"
   validations:
     required: true
 
@@ -31,8 +32,8 @@ body:
   id: alternative-description
   attributes:
     label: "Describe alternatives you've considered"
-    description: A clear and concise description of any alternative solutions or features you've considered.
-    placeholder: Please describe any alternative solutions or features you've considered
+    description: "A clear and concise description of any alternative solutions or features you've considered."
+    placeholder: "Please describe any alternative solutions or features you've considered"
   validations:
     required: false
 
@@ -40,7 +41,7 @@ body:
   id: additional-context
   attributes:
     label: "Additional context"
-    description: Please feel free to add any other context or screenshots about the feature request here.
-    placeholder: Please provide any additional context or screenshots
+    description: "Please feel free to add any other context or screenshots about the feature request here."
+    placeholder: "Please provide any additional context or screenshots"
   validations:
     required: false
