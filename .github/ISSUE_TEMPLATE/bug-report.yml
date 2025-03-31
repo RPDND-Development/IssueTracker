@@ -1,5 +1,5 @@
 name: "🐛 Bug Report"
-description: Create a bug report to help us improve.
+description: Create a bug report.
 title: "🐛 [BUG] - <title>"
 labels: 
   - "bug"
@@ -9,9 +9,17 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: "Summary of Bug"
-      description: Give us a summary of the current bug
-      placeholder: Short and explicit summary of the bug...
+      label: "Description of Bug"
+      description: Give us a detailed description of the bug.
+      placeholder: Detailed summary of the bug, how it looks, what it does.
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Please provide a numbered list of steps to reproduce the bug, e.g. '1. Run `/command`' "
+      placeholder: Steps to exactly reproduce...
     validations:
       required: true
   - type: textarea
@@ -23,30 +31,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: current-behavior
-    attributes:
-      label: "Current Behavior"
-      description: Tell us what happens instead of the expected behavior
-      placeholder: Current behavior...
-    validations:
-      required: true
-  - type: textarea
-    id: possible-solution
-    attributes:
-      label: "Possible Solution"
-      description: Not obligatory, but suggest a fix/reason for the bug
-      placeholder: Possible solution...
-    validations:
-      required: false
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: "Steps to Reproduce"
-      description: "Please provide a numbered list of steps to reproduce the bug, e.g. '1. Go to...' "
-      placeholder: Steps to reproduce...
-    validations:
-      required: true
-  - type: textarea
     id: screenshots
     attributes:
       label: "Screenshots"
@@ -55,18 +39,10 @@ body:
     validations:
       required: false
   - type: textarea
-    id: context
+    id: possible-solution
     attributes:
-      label: "Context (Environment)"
-      description: Please feel free to add any other context about the problem here.
-      placeholder: Context...
-    validations:
-      required: false
-  - type: textarea
-    id: possible-implementation
-    attributes:
-      label: "Possible Implementation"
-      description: Not obligatory, but suggest an idea for implementing a solution
-      placeholder: Possible implementation...
+      label: "Possible Solution"
+      description: Not obligatory, but suggest a fix/reason for the bug
+      placeholder: Possible solution...
     validations:
       required: false
